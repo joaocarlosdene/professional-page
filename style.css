@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------CABEÇALHO----------------*/
+
+
+.icons{
+    padding: 0.5rem 0.3rem;
+    font-size: 1.3rem;
+    width: 100%;
+    
+}
+.nome{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.nome:hover{
+    cursor: pointer;
+    color: rgba(32, 32, 32, 0.637);
+    font-size: 2.5rem;
+    width: 30%;
+}
+
+.fab:hover{
+    cursor: pointer;
+    color: rgb(88, 173, 173);
+}
+
+
+.nav-link{
+    margin-right: 5rem;
+}
+.navbar{
+    color: white;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+/*-----------------COPY----------------*/
+.copy{
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+}
+.conteudo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fas{
+    color: rgb(0, 0, 173);
+}
+.button{
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 1rem 2rem;
+    border: white;
+    border-radius: 40px;
+    background-color: #00F260;
+}
+/*-----------------FERRAMENTAS----------------*/
+
+.servico{
+    background-color: #04060D;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
