@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 /*-----------------CABEÇALHO----------------*/
 
@@ -10,12 +11,13 @@ body{
 .icons{
     padding: 0.5rem 0.3rem;
     font-size: 1.3rem;
-    width: 100%;
-    
+    width: 3rem;
+    color: white;
 }
 .nome{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    color: black;
 }
 .nome:hover{
     cursor: pointer;
@@ -50,7 +52,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.fas{
+.fa-check{
     color: rgb(0, 0, 173);
 }
 .button{
@@ -66,7 +68,47 @@ body{
 /*-----------------FERRAMENTAS----------------*/
 
 .servico{
-    background-color: #04060D;
+    background-color: #04060d2f;
     font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.tipo{
+    margin-right: 1rem;
+}
+.search{
     color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.fa-youtube{
+    color: rgb(255, 15, 15);
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.fa-facebook-square{
+    color:rgba(30, 30, 255, 0.877);
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.fa-instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    font-size: 2rem;
+    border-radius: 6px;
+    color: white;
+    border: solid 0.3px rgb(138, 136, 136);
+    margin-top: 1rem;
+}
+/*-----------------RODAPÉ----------------*/
+.rodape{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-rodape{
+    color:rgba(255, 255, 255, 0.514);
 }
