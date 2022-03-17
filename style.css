@@ -65,6 +65,11 @@ body{
     border-radius: 40px;
     background-color: #00F260;
 }
+.button:hover{
+    background-color: white;
+    color: #00F260;
+    border: #00F260 solid;
+}
 /*-----------------FERRAMENTAS----------------*/
 
 .servico{
@@ -100,6 +105,20 @@ body{
     color: white;
     border: solid 0.3px rgb(138, 136, 136);
     margin-top: 1rem;
+}
+/*-----------------FORMULARIO----------------*/
+.button-enviar{
+    padding: 0.7rem 2rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgba(30, 120, 255, 0.877);
+}
+.button-enviar:hover{
+    background-color: white;
+    border: solid rgba(30, 120, 255, 0.877);
+    color: rgba(30, 120, 255, 0.877);
 }
 /*-----------------RODAPÉ----------------*/
 .rodape{
