@@ -14,7 +14,8 @@
         <div class="container icons">
             <div class="row">
                 <div class="col-4">
-                    <i class="fab fa-instagram"></i>
+                  <a href="https://www.instagram.com/joaocarlosdene/" target="_blank"><i class="fab fa-instagram"></i></a>  
+                  
                 </div>
                 <div class="col-8 nome">
                     <h3>Joao Carlos Dene</h3>
@@ -67,7 +68,8 @@
                 <div class="col-12 col-md-8 text-center ">
                     <h3 class="copy">Eu aumento os lucros da sua empresa com anúncios na internet</h3>
                     <h3 class="copy">Só pague após eu te provar que é possivel!</h3>
-                    <button class="button">ENTRE EM CONTATO <i class="fab fa-whatsapp"></i> </button>
+                    <a href="https://wa.me/message/S655TWJ2FMYJH1" target="_blank"><button class="button">ENTRE EM CONTATO <i class="fab fa-whatsapp"></i> </button></a>
+                    
                 </div>
                 <div class="col-12 col-md-4">
                     <p><i class="fas fa-check"></i> MAIS VENDAS</p>
@@ -85,21 +87,23 @@
         
         <div class="formulario container text-center">
           <h3>FORMULÁRIO DE CONTATO</h3>
-          <form class="form-floating mb-3" action="">
+          <form class="form-floating mb-3" action="https://formsubmit.co/joaoo.c@hotmail.com" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+            <input type="hidden" name="_autoresponse" value="Olá, Obrigado pelo seu email, logo estarei entrando em contato! Atenciosamente João Carlos Dene">
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Nome" name="Nome" required>
               <label for="floatingInput">Nome:</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Email">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Email" name="Email" required>
               <label for="floatingInput">Email:</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Assunto">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Assunto" name="Assunto" required>
               <label for="floatingInput">Assunto:</label>
             </div>
             <div class="form-floating">
-              <textarea class="form-control" style="height: 100px" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <textarea class="form-control" style="height: 100px" placeholder="Leave a comment here" id="floatingTextarea"name="Mensagem" required></textarea>
               <label for="floatingTextarea">Mensagem:</label>
             </div>
             <BUtton class="button-enviar">ENVIAR</BUtton>
